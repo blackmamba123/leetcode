@@ -6,9 +6,9 @@ public class Leetcode12 {
             return "";
         }
 
-        String[] QianArray = {"", "IM", "IIM", "IIIM" };
+        String[] QianArray = {"", "M", "MM", "MMM" };
         String[] BaiArray = {"","C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
-        String[] ShiArray = {"","X", "XX", "XXX", "IL", "L", "LX", "LXX", "LXXX", "XC"};
+        String[] ShiArray = {"","X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
         String[] GeArray = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
         StringBuilder sb = new StringBuilder();
         int qian = num / 1000;
